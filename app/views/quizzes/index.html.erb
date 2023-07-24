@@ -1,0 +1,20 @@
+<div class = "border-2 border-solid border-gray p-6">
+  <div class = "border-b-2 border-solid border-gray pb-2 pt-2 pl-2  bg-gray-200">
+  <h1 class = "text-lg font-bold ">Assigment Quizzes</h1>
+  </div>
+  <div class = "pt-5"> 
+  <% @quizzes.each do |quiz|%>
+    <h2 class = "font-bold" ><%= quiz["title"]%></h2>
+    <span class = "text-gray-600 font-bold text-sm"> Due </span>
+    <span class = "text-sm" ><%= quiz["due_at"] %>
+    <span> | <span>
+    <span><%= quiz["points_possible"] %>
+    <span> pts </span>
+    <span> | <span>
+    <span><%= quiz["time_limit"] %>
+    <span> min </span> 
+    
+    <div class = "border-b-[0.1rem] border-solid border-gray-300 pb-2" ></div>
+  <% end %>
+  </div>
+</div>

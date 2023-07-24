@@ -1,0 +1,11 @@
+development:
+  api_base: http://canvas.docker
+  api_key: RsHZZEB7npl5FDVtE8RlOO5j310FPCxtxBz9YUCCEUe2qVkqQexqHvRSSJ7BAmv2
+
+test:
+  api_base: http://canvas.docker
+  api_key: RsHZZEB7npl5FDVtE8RlOO5j310FPCxtxBz9YUCCEUe2qVkqQexqHvRSSJ7BAmv2
+  
+production:
+  api_key: RsHZZEB7npl5FDVtE8RlOO5j310FPCxtxBz9YUCCEUe2qVkqQexqHvRSSJ7BAmv2
+  
